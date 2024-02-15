@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class InrToUsd {
+    public static void main(String [] args){
+        Scanner in = new Scanner(System.in);
+        System.out.println("Please enter the money in INR");
+        Float money = in.nextFloat();
+        System.out.println("The money is equivalent to " + money*0.012 + " dollars");
+    }
+}
